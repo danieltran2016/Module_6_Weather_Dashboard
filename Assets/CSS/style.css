@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Fredoka one', sans-serif ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px 70px;
+    color: #f3e9e9;
+}
+
+.current{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date{
+    font-weight: 20;
+    color: black
+}
+
+ .date .time {
+    font-size: 70px;
+    font-weight: 400;
+ }
+
+ .date #am-pm{
+    font-size: 30px;
+    margin-left: 2px;
+ }
+
+.date .day{
+    font-size:30px;
+    font-weight: 400;
+}
+
+.place{
+    text-align: start;
+}
+
+.place .city{
+    font-size: 30px;
+    font-weight: 400;
+  
+}
+
+.place .country{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.current .items {
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(92, 92, 226, 0.6);
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    font-weight: 100;
+    color:white;
+    font-size: 20px;
+}
+
+.current .items .weather-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future{
+    background: rgba(21, 21, 121, 0.8);
+    padding: 25px;
+    position: fixed;
+    bottom:100px;  
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.future .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.future .today .day {
+    padding: 5px 15px;
+    background: #3c3c44;
+    text-align: center;
+}
+
+.future .today .temp{
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.future .today .wind{
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.future .forecast{
+    display:flex;
+}
+
+.forecast .weather-item{
+    margin: 0 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.forecast .weather-item .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    text-align: center;
+}

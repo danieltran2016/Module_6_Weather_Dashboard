@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashbaord</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
+</head>
+<body>
+
+  <main class="container">
+    <now class="current">
+        <div class="date">
+            <time class="time" id="time">
+                12:30 <span id="am-pm">PM</span>
+            </time>
+            <div class="place">
+                <city class="city" id="time-zone">San Antonio,</city>
+                    <country id="country" class="country">USA</country>            
+            </div>
+            <date class="day" id="day">Monday, March 06</date>
+            <today-data class="items" id="current-weather-items">
+                <hum class="weather-item">
+                    <p>Humidity</p>
+                    <p>95.2%</p>
+                </hum>
+                <today-temp class="weather-item">
+                    <p>Temperature</p>
+                    <p>68&#176;F</p>
+                </today-temp>
+                <today-wind class="weather-item">
+                    <p>Wind Speed</p>
+                    <p>95.2%</p>
+                </today-wind>
+            </today-data>
+            <search>
+                <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+                <button type="button" onclick="getWeather()">Search</button>
+            </search>
+        </div>
+    </now>
+    
+  </div>
+  <Future class="future">   
+    <div class="forecast" id="weather-forecast">
+     <F1 class="weather-item">
+         <day class="day">D1</day>
+         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+         <temp class="temp">Temp 67&#176;F</temp>
+         <wind class="wind">Wind 2mph</wind>
+         <hum class="hum">Humidity 13%</hum>
+     </F1>
+     <F2 class="weather-item">
+         <day class="day">D2</day>
+         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+         <temp class="temp">Temp 67&#176;F</temp>
+         <wind class="wind">Wind 2mph</wind>
+         <hum class="hum">Humidity 13%</hum>
+     </F2>
+     <F3 class="weather-item">
+         <day class="day">D3</day>
+         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+         <temp class="temp">Temp 67&#176;F</temp>
+         <wind class="wind">Wind 2mph</wind>
+         <hum class="hum">Humidity 13%</hum>
+     </F3>
+     <F4 class="weather-item">
+         <day class="day">D4</day>
+         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+         <temp class="temp">Temp 67&#176;F</temp>
+         <wind class="wind">Wind 2mph</wind>
+         <hum class="hum">Humidity 13%</hum>
+     </F4>
+     <F5 class="weather-item">
+         <day class="day">D5</day>
+         <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+         <temp class="temp">Temp 67&#176;F</temp>
+         <wind class="wind">Wind 2mph</wind>
+         <hum class="hum">Humidity 13%</hum>
+     </F5>
+    </future>
+</main>
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>
