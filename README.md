@@ -13,3 +13,5 @@ When the page is loaded, the user inputs a location and the weather infomration 
 ## Credits
 
  [Repository](https://github.com/danieltran2016/Module_6_Weather_Dashboard)
+
+[Site](https://danieltran2016.github.io/Module_6_Weather_Dashboard/)
